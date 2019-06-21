@@ -2,82 +2,104 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <style media="screen">
-      ul li{
-        font-size: 12px;
-        margin: auto 30px;
-      }
-      .down_cards p{
-        font-size:12px;
-      }
-      img{
-        height: 200px;
-        background: #cccccc;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Cards</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-sm bg-light navbar-info" style="margin-top: 30px;">
-        <a href="#" class="navbar-brand text-info">YOUR LOGO HERE</a>
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="#" class="text-info">Home</a></li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="#" class="text-info">About</a></li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="#" class="text-info">Services</a></li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="#" class="text-info">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="card w-75" style=" background-color: #e6e6e6;">
-        <div class="card-body" style="padding-top: 60px;margin-left: 20px; padding-bottom: 30px;">
-          <h2 class="card-title">A Warm Welcome</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </p>
-          <a href="#" class="btn btn-primary">Click To Action</a>
-        </div>
-      </div>
-      <div class="row down_cards" style="margin-top: 20px;">
-        <div class="card col-3 text-center">
-          <img src="" class="card-img-top" alt="Image 1">
-          <div class="card-body">
-            <h5 class="card-title">Card Title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </p>
-            <center><a href="#" class="card-link btn btn-primary btn-sm">Find Out More</a></center>
-          </div>
-        </div>
-        <div class="card col-3 text-center">
-          <img src="" class="card-img-top" alt="Image 2">
-          <div class="card-body">
-            <h5 class="card-title">Card Title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </p>
-            <center><a href="#" class="card-link btn btn-primary btn-sm">Find Out More</a></center>
-          </div>
-        </div>
-        <div class="card col-3 text-center">
-          <img src="" class="card-img-top" alt="Image 3">
-          <div class="card-body">
-            <h5 class="card-title">Card Title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </p>
-            <center><a href="#" class="card-link btn btn-primary btn-sm">Find Out More</a></center>
-          </div>
-        </div>
-        <div class="card col-3 text-center">
-          <img src="" class="card-img-top" alt="Image 4">
-          <div class="card-body">
-            <h5 class="card-title">Card Title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </p>
-            <center><a href="#" class="card-link btn btn-primary btn-sm">Find Out More</a></center>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item nav-link" href="#">Service</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
       </div>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  </nav>
+<div class="container">
+<div class="card" style="padding:2vw;">
+
+    <h1>A Warm Welcome!</h1>
+    <p>A healthy recepton or greeting as in We got a very warm welcome we finally arrved.
+      <br>Calm mind brings inner strength and self-confidence, so that's very important for good health.</p>
+       <h5>Dalai Lama</h5><br>
+       <div class="row">
+         <div class="col-md-3" style="margin-left:1vw;">
+      <button type="button" class="btn btn-primary">Primary</button>
+       </div>
+       </div>
+</div>
+
+
+
+
+
+
+  <div class="row" style="margin-top:3vw;">
+
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;">
+        <img src="images/download (1).jpeg">
+  <div class="card-body">
+
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+  <div class="col-md-3">
+
+<div class="card" style="width: 18rem;">
+<img src="images/download.jpeg">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+  <div class="col-md-3">
+
+<div class="card" style="width: 18rem;">
+<img src="images/images.jpeg" >
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+  <div class="col-md-3">
+
+<div class="card" style="width: 18rem;">
+<img src="images/download (2).jpeg">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+    </div>
+    <footer>
+      <h5 style="text-align:center; margin-top:2vw;">Copyright &#169; Website 2019</h5>
+      </footer>
+</div>
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
